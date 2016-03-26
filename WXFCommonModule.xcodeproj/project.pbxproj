@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		17C4248C3AB8CB89453B42EE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C5D82030EE7622191162DF /* libPods.a */; };
+		2F3A3BE01CA6446F00C584D5 /* WXFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BDF1CA6446F00C584D5 /* WXFParser.m */; };
+		2F3A3BE41CA6450B00C584D5 /* WXFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */; };
+		2F3A3BEF1CA6473000C584D5 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */; };
+		2F3A3BF01CA6473000C584D5 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */; };
+		2F3A3BF11CA6473000C584D5 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BEC1CA6473000C584D5 /* NSString+YYAdd.m */; };
+		2F3A3BF21CA6473000C584D5 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BEE1CA6473000C584D5 /* UIDevice+YYAdd.m */; };
+		2F3A3BF51CA6480D00C584D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A3BF41CA6480D00C584D5 /* SystemConfiguration.framework */; };
+		2F3A3BF71CA6489100C584D5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A3BF61CA6489100C584D5 /* libz.1.2.5.tbd */; };
+		2F3A3C051CA64A0000C584D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A3C041CA64A0000C584D5 /* Foundation.framework */; };
+		2F3A3C081CA64B2700C584D5 /* NSDictionary+SafeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C071CA64B2700C584D5 /* NSDictionary+SafeData.m */; };
+		2F3A3C0F1CA64BF900C584D5 /* NSObject+YCAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C0A1CA64BF900C584D5 /* NSObject+YCAddition.m */; };
+		2F3A3C101CA64BF900C584D5 /* NSString+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C0C1CA64BF900C584D5 /* NSString+extend.m */; };
+		2F3A3C111CA64BF900C584D5 /* UIColor+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C0E1CA64BF900C584D5 /* UIColor+Factory.m */; };
+		2F3A3C141CA64C7F00C584D5 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C131CA64C7F00C584D5 /* UIView+Frame.m */; };
+		2F3A3C1B1CA64E8E00C584D5 /* WXFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3C1A1CA64E8E00C584D5 /* WXFDevice.m */; };
 		2F50A2611CA3B9470055A7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A2601CA3B9470055A7F7 /* main.m */; };
 		2F50A2641CA3B9470055A7F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A2631CA3B9470055A7F7 /* AppDelegate.m */; };
 		2F50A2671CA3B9470055A7F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A2661CA3B9470055A7F7 /* ViewController.m */; };
@@ -20,6 +35,36 @@
 
 /* Begin PBXFileReference section */
 		0C7457074A176096550D4536 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3A3BDE1CA6446F00C584D5 /* WXFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFParser.h; sourceTree = "<group>"; };
+		2F3A3BDF1CA6446F00C584D5 /* WXFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFParser.m; sourceTree = "<group>"; };
+		2F3A3BE21CA6450B00C584D5 /* WXFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFHTTPSessionManager.m; sourceTree = "<group>"; };
+		2F3A3BE71CA6473000C584D5 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
+		2F3A3BE91CA6473000C584D5 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		2F3A3BEB1CA6473000C584D5 /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		2F3A3BEC1CA6473000C584D5 /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		2F3A3BED1CA6473000C584D5 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		2F3A3BEE1CA6473000C584D5 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		2F3A3BF31CA6478E00C584D5 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		2F3A3BF41CA6480D00C584D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2F3A3BF61CA6489100C584D5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		2F3A3C041CA64A0000C584D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F3A3C061CA64B2700C584D5 /* NSDictionary+SafeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeData.h"; sourceTree = "<group>"; };
+		2F3A3C071CA64B2700C584D5 /* NSDictionary+SafeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeData.m"; sourceTree = "<group>"; };
+		2F3A3C091CA64BF900C584D5 /* NSObject+YCAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YCAddition.h"; sourceTree = "<group>"; };
+		2F3A3C0A1CA64BF900C584D5 /* NSObject+YCAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YCAddition.m"; sourceTree = "<group>"; };
+		2F3A3C0B1CA64BF900C584D5 /* NSString+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extend.h"; sourceTree = "<group>"; };
+		2F3A3C0C1CA64BF900C584D5 /* NSString+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extend.m"; sourceTree = "<group>"; };
+		2F3A3C0D1CA64BF900C584D5 /* UIColor+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Factory.h"; sourceTree = "<group>"; };
+		2F3A3C0E1CA64BF900C584D5 /* UIColor+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Factory.m"; sourceTree = "<group>"; };
+		2F3A3C121CA64C7F00C584D5 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2F3A3C131CA64C7F00C584D5 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		2F3A3C151CA64D5F00C584D5 /* WXFHttpCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXFHttpCommonHeader.h; sourceTree = "<group>"; };
+		2F3A3C161CA64D9E00C584D5 /* WXFCategoryCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXFCategoryCommonHeader.h; sourceTree = "<group>"; };
+		2F3A3C191CA64E8E00C584D5 /* WXFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFDevice.h; sourceTree = "<group>"; };
+		2F3A3C1A1CA64E8E00C584D5 /* WXFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFDevice.m; sourceTree = "<group>"; };
 		2F50A25C1CA3B9470055A7F7 /* WXFCommonModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXFCommonModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F50A2601CA3B9470055A7F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F50A2621CA3B9470055A7F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3A3C051CA64A0000C584D5 /* Foundation.framework in Frameworks */,
+				2F3A3BF71CA6489100C584D5 /* libz.1.2.5.tbd in Frameworks */,
+				2F3A3BF51CA6480D00C584D5 /* SystemConfiguration.framework in Frameworks */,
 				17C4248C3AB8CB89453B42EE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,9 +101,82 @@
 		1D0D3BE725691E053F1361F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F3A3C041CA64A0000C584D5 /* Foundation.framework */,
+				2F3A3BF61CA6489100C584D5 /* libz.1.2.5.tbd */,
+				2F3A3BF41CA6480D00C584D5 /* SystemConfiguration.framework */,
 				E4C5D82030EE7622191162DF /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F3A3BDD1CA6445500C584D5 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3BDE1CA6446F00C584D5 /* WXFParser.h */,
+				2F3A3BDF1CA6446F00C584D5 /* WXFParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		2F3A3BE11CA644F500C584D5 /* HttpSession */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3BE21CA6450B00C584D5 /* WXFHTTPSessionManager.h */,
+				2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */,
+			);
+			path = HttpSession;
+			sourceTree = "<group>";
+		};
+		2F3A3BE51CA6472300C584D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3BE61CA6473000C584D5 /* Category_YY */,
+				2F3A3C061CA64B2700C584D5 /* NSDictionary+SafeData.h */,
+				2F3A3C071CA64B2700C584D5 /* NSDictionary+SafeData.m */,
+				2F3A3C091CA64BF900C584D5 /* NSObject+YCAddition.h */,
+				2F3A3C0A1CA64BF900C584D5 /* NSObject+YCAddition.m */,
+				2F3A3C0B1CA64BF900C584D5 /* NSString+extend.h */,
+				2F3A3C0C1CA64BF900C584D5 /* NSString+extend.m */,
+				2F3A3C0D1CA64BF900C584D5 /* UIColor+Factory.h */,
+				2F3A3C0E1CA64BF900C584D5 /* UIColor+Factory.m */,
+				2F3A3C161CA64D9E00C584D5 /* WXFCategoryCommonHeader.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2F3A3BE61CA6473000C584D5 /* Category_YY */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3BF31CA6478E00C584D5 /* YYKitMacro.h */,
+				2F3A3BE71CA6473000C584D5 /* NSData+YYAdd.h */,
+				2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */,
+				2F3A3BE91CA6473000C584D5 /* NSNumber+YYAdd.h */,
+				2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */,
+				2F3A3BEB1CA6473000C584D5 /* NSString+YYAdd.h */,
+				2F3A3BEC1CA6473000C584D5 /* NSString+YYAdd.m */,
+				2F3A3BED1CA6473000C584D5 /* UIDevice+YYAdd.h */,
+				2F3A3BEE1CA6473000C584D5 /* UIDevice+YYAdd.m */,
+				2F3A3C121CA64C7F00C584D5 /* UIView+Frame.h */,
+				2F3A3C131CA64C7F00C584D5 /* UIView+Frame.m */,
+			);
+			path = Category_YY;
+			sourceTree = "<group>";
+		};
+		2F3A3C171CA64E7000C584D5 /* WXFTools */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3C181CA64E7C00C584D5 /* UIDevice */,
+			);
+			path = WXFTools;
+			sourceTree = "<group>";
+		};
+		2F3A3C181CA64E7C00C584D5 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A3C191CA64E8E00C584D5 /* WXFDevice.h */,
+				2F3A3C1A1CA64E8E00C584D5 /* WXFDevice.m */,
+			);
+			path = UIDevice;
 			sourceTree = "<group>";
 		};
 		2F50A2531CA3B9470055A7F7 = {
@@ -104,6 +225,8 @@
 		2F50A2761CA3B96C0055A7F7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2F3A3C171CA64E7000C584D5 /* WXFTools */,
+				2F3A3BE51CA6472300C584D5 /* Category */,
 				2F50A2781CA3B9C00055A7F7 /* DataBase */,
 				2F50A2771CA3B97A0055A7F7 /* HttpClient */,
 			);
@@ -113,8 +236,11 @@
 		2F50A2771CA3B97A0055A7F7 /* HttpClient */ = {
 			isa = PBXGroup;
 			children = (
+				2F3A3BE11CA644F500C584D5 /* HttpSession */,
+				2F3A3BDD1CA6445500C584D5 /* Parser */,
 				2F50A2791CA3BA3C0055A7F7 /* WXFHttpClient.h */,
 				2F50A27A1CA3BA3C0055A7F7 /* WXFHttpClient.m */,
+				2F3A3C151CA64D5F00C584D5 /* WXFHttpCommonHeader.h */,
 			);
 			path = HttpClient;
 			sourceTree = "<group>";
@@ -258,11 +384,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3A3C111CA64BF900C584D5 /* UIColor+Factory.m in Sources */,
 				2F50A2671CA3B9470055A7F7 /* ViewController.m in Sources */,
 				2F50A2641CA3B9470055A7F7 /* AppDelegate.m in Sources */,
+				2F3A3BEF1CA6473000C584D5 /* NSData+YYAdd.m in Sources */,
+				2F3A3BF21CA6473000C584D5 /* UIDevice+YYAdd.m in Sources */,
 				2F50A27B1CA3BA3C0055A7F7 /* WXFHttpClient.m in Sources */,
+				2F3A3C081CA64B2700C584D5 /* NSDictionary+SafeData.m in Sources */,
+				2F3A3C0F1CA64BF900C584D5 /* NSObject+YCAddition.m in Sources */,
+				2F3A3C141CA64C7F00C584D5 /* UIView+Frame.m in Sources */,
+				2F3A3C101CA64BF900C584D5 /* NSString+extend.m in Sources */,
+				2F3A3BF01CA6473000C584D5 /* NSNumber+YYAdd.m in Sources */,
+				2F3A3BE01CA6446F00C584D5 /* WXFParser.m in Sources */,
+				2F3A3C1B1CA64E8E00C584D5 /* WXFDevice.m in Sources */,
 				2F50A2611CA3B9470055A7F7 /* main.m in Sources */,
 				2F50A27E1CA3BA590055A7F7 /* WXFDataManager.m in Sources */,
+				2F3A3BE41CA6450B00C584D5 /* WXFHTTPSessionManager.m in Sources */,
+				2F3A3BF11CA6473000C584D5 /* NSString+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
