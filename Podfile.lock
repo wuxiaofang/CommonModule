@@ -29,7 +29,7 @@ PODS:
   - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
-  - AFNetworking
+  - AFNetworking (~> 3.0.0)
   - FMDB
   - ReactiveCocoa
   - SDWebImage

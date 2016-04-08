@@ -92,10 +92,10 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'WXFCommonModule/Classes/**/*'
   s.exclude_files = "Classes/Exclude"
-  s.dependency 'AFNetworking' (~>3.0.0)
-  s.dependency 'ReactiveCocoa'
-  s.dependency 'SDWebImage'
-  s.dependency 'FMDB'
+  s.dependency "AFNetworking", "~> 3.0.0"
+  s.dependency "ReactiveCocoa"
+  s.dependency "SDWebImage"
+  s.dependency "FMDB"
 
   # s.public_header_files = "Classes/**/*.h"
 
