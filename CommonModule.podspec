@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'WXFCommonModule/Classes/**/*'
   s.exclude_files = "Classes/Exclude"
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking' (~>3.0.4)
   s.dependency 'ReactiveCocoa'
   s.dependency 'SDWebImage'
   s.dependency 'FMDB'
