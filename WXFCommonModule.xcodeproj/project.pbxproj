@@ -30,6 +30,7 @@
 		2F50A26F1CA3B9470055A7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F50A26D1CA3B9470055A7F7 /* LaunchScreen.storyboard */; };
 		2F50A27B1CA3BA3C0055A7F7 /* WXFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A27A1CA3BA3C0055A7F7 /* WXFHttpClient.m */; };
 		2F50A27E1CA3BA590055A7F7 /* WXFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A27D1CA3BA590055A7F7 /* WXFDataManager.m */; };
+		2F5E22511CB7E3E800C66714 /* WXFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E22501CB7E3E800C66714 /* WXFHTTPSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,8 @@
 		2F50A27A1CA3BA3C0055A7F7 /* WXFHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFHttpClient.m; sourceTree = "<group>"; };
 		2F50A27C1CA3BA590055A7F7 /* WXFDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFDataManager.h; sourceTree = "<group>"; };
 		2F50A27D1CA3BA590055A7F7 /* WXFDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFDataManager.m; sourceTree = "<group>"; };
+		2F5E224F1CB7E3E800C66714 /* WXFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2F5E22501CB7E3E800C66714 /* WXFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFHTTPSessionManager.m; sourceTree = "<group>"; };
 		7EE7E1EFFC9A3D1C7646175C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E4C5D82030EE7622191162DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,13 +118,6 @@
 			path = Parser;
 			sourceTree = "<group>";
 		};
-		2F3A3BE11CA644F500C584D5 /* HttpSession */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = HttpSession;
-			sourceTree = "<group>";
-		};
 		2F3A3BE51CA6472300C584D5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,11 +142,11 @@
 				2F3A3BE71CA6473000C584D5 /* NSData+YYAdd.h */,
 				2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */,
 				2F3A3BE91CA6473000C584D5 /* NSNumber+YYAdd.h */,
-				2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */,
 				2F3A3BEB1CA6473000C584D5 /* NSString+YYAdd.h */,
 				2F3A3BEC1CA6473000C584D5 /* NSString+YYAdd.m */,
 				2F3A3BED1CA6473000C584D5 /* UIDevice+YYAdd.h */,
 				2F3A3BEE1CA6473000C584D5 /* UIDevice+YYAdd.m */,
+				2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */,
 				2F3A3C121CA64C7F00C584D5 /* UIView+Frame.h */,
 				2F3A3C131CA64C7F00C584D5 /* UIView+Frame.m */,
 			);
@@ -231,11 +227,12 @@
 		2F50A2771CA3B97A0055A7F7 /* HttpClient */ = {
 			isa = PBXGroup;
 			children = (
-				2F3A3BE11CA644F500C584D5 /* HttpSession */,
 				2F3A3BDD1CA6445500C584D5 /* Parser */,
 				2F50A2791CA3BA3C0055A7F7 /* WXFHttpClient.h */,
 				2F50A27A1CA3BA3C0055A7F7 /* WXFHttpClient.m */,
 				2F3A3C151CA64D5F00C584D5 /* WXFHttpCommonHeader.h */,
+				2F5E224F1CB7E3E800C66714 /* WXFHTTPSessionManager.h */,
+				2F5E22501CB7E3E800C66714 /* WXFHTTPSessionManager.m */,
 			);
 			path = HttpClient;
 			sourceTree = "<group>";
@@ -385,6 +382,7 @@
 				2F3A3BEF1CA6473000C584D5 /* NSData+YYAdd.m in Sources */,
 				2F3A3BF21CA6473000C584D5 /* UIDevice+YYAdd.m in Sources */,
 				2F50A27B1CA3BA3C0055A7F7 /* WXFHttpClient.m in Sources */,
+				2F5E22511CB7E3E800C66714 /* WXFHTTPSessionManager.m in Sources */,
 				2F3A3C081CA64B2700C584D5 /* NSDictionary+SafeData.m in Sources */,
 				2F3A3C0F1CA64BF900C584D5 /* NSObject+YCAddition.m in Sources */,
 				2F3A3C141CA64C7F00C584D5 /* UIView+Frame.m in Sources */,
