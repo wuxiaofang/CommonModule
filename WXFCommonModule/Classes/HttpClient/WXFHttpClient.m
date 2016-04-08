@@ -7,11 +7,11 @@
 //
 
 #import "WXFHttpClient.h"
-#import "WXFHTTPSessionManager.h"
 #import "WXFParser.h"
+#import "AFNetworking.h"
 @interface WXFHttpClient()
 
-@property (nonatomic, strong) WXFHTTPSessionManager* httpSessionManager;
+@property (nonatomic, strong) AFHTTPSessionManager* httpSessionManager;
 
 @end
 
@@ -32,7 +32,7 @@
 {
     self = [super init];
     if(self){
-        self.httpSessionManager = [WXFHTTPSessionManager manager];
+        self.httpSessionManager = [AFHTTPSessionManager manager];
     }
     return self;
 }
