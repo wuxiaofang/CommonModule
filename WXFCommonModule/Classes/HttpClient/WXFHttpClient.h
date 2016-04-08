@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WXFParser.h"
+
+
+@class WXFParser;
 
 @interface WXFHttpClient : NSObject
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17C4248C3AB8CB89453B42EE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C5D82030EE7622191162DF /* libPods.a */; };
 		2F3A3BE01CA6446F00C584D5 /* WXFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BDF1CA6446F00C584D5 /* WXFParser.m */; };
-		2F3A3BE41CA6450B00C584D5 /* WXFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */; };
 		2F3A3BEF1CA6473000C584D5 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */; };
 		2F3A3BF01CA6473000C584D5 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BEA1CA6473000C584D5 /* NSNumber+YYAdd.m */; };
 		2F3A3BF11CA6473000C584D5 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A3BEC1CA6473000C584D5 /* NSString+YYAdd.m */; };
@@ -37,8 +36,6 @@
 		0C7457074A176096550D4536 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2F3A3BDE1CA6446F00C584D5 /* WXFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFParser.h; sourceTree = "<group>"; };
 		2F3A3BDF1CA6446F00C584D5 /* WXFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFParser.m; sourceTree = "<group>"; };
-		2F3A3BE21CA6450B00C584D5 /* WXFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFHTTPSessionManager.h; sourceTree = "<group>"; };
-		2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFHTTPSessionManager.m; sourceTree = "<group>"; };
 		2F3A3BE71CA6473000C584D5 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
 		2F3A3BE81CA6473000C584D5 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
 		2F3A3BE91CA6473000C584D5 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
@@ -121,8 +118,6 @@
 		2F3A3BE11CA644F500C584D5 /* HttpSession */ = {
 			isa = PBXGroup;
 			children = (
-				2F3A3BE21CA6450B00C584D5 /* WXFHTTPSessionManager.h */,
-				2F3A3BE31CA6450B00C584D5 /* WXFHTTPSessionManager.m */,
 			);
 			path = HttpSession;
 			sourceTree = "<group>";
@@ -399,7 +394,6 @@
 				2F3A3C1B1CA64E8E00C584D5 /* WXFDevice.m in Sources */,
 				2F50A2611CA3B9470055A7F7 /* main.m in Sources */,
 				2F50A27E1CA3BA590055A7F7 /* WXFDataManager.m in Sources */,
-				2F3A3BE41CA6450B00C584D5 /* WXFHTTPSessionManager.m in Sources */,
 				2F3A3BF11CA6473000C584D5 /* NSString+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

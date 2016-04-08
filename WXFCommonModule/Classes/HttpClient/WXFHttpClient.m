@@ -8,7 +8,7 @@
 
 #import "WXFHttpClient.h"
 #import "WXFHTTPSessionManager.h"
-
+#import "WXFParser.h"
 @interface WXFHttpClient()
 
 @property (nonatomic, strong) WXFHTTPSessionManager* httpSessionManager;
